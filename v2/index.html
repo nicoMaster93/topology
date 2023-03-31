@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/tp.css"> 
+    <link rel="stylesheet" href="css/loading.css"> 
+    <link rel="stylesheet" type="text/css" href="../../../Common/JS/easyui3.5/themes/icon.css?v=20220907">
+    <!-- <script data-scriptjs="visJs" type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script> -->
+</head>
+<style>
+    .contendorTp {
+        width: 100%;
+        height: 97vh;
+        margin-left: 0;
+        position: relative;
+    }
+</style>
+<body>
+<div class="contendorTp">
+  <div id="containerTopo" class="full_hd"></div>
+</div>
+
+<script type="text/javascript" src="js/complement.tp.js" data-scriptjs="visJs" ></script>
+
+
+<script>
+  $(document).ready(function(){
+    
+    $("#containerTopo").topology({
+        /*(Opcional) Muestra o no los mensajes por consola default false */
+        showConsole:true,
+        showFilters:true,
+        pathImageNode: '../../../Common/JS/easyui3.5/themes/icons/',
+        // imageLoader: '../../css/logoEsol.png',
+        containerDomCanvas:'.contendorTp',
+        label: 'ip',
+        title: 'title',
+        titleNodeSummary: 'Equipos',
+        server:{
+            /*  (Opcional-Obligatorio) Ruta del json por ajax */
+            // url:"json/ecopetrol5919.json", 
+            // method:'POST',
+            // data:{function_name:"hola", params:{ id : 6020 }}
+            url:"../../../ocupacion.php", 
+            method:'POST',
+            data:{
+              function_name:"getTopologyJsonV2", 
+              // params: {"id":1,"type":"device","opcion":1,"ancho":1400,"alto":578,"fecha_ini":"02/24/2023 00:00","fecha_fin":"02/24/2023 11:31"}
+              params: {"id":2134,"type":"device","opcion":1,"ancho":1400,"alto":494,"fecha_ini":"03/02/2023 00:00","fecha_fin":"03/02/2023 16:43"}
+
+            }
+        },
+        /* Muestra botones de navegacion en el canvas */
+        buttonNavigate:true, /* Default false */
+        
+        /* Muestra el nombre de las conexiones */
+        labelEdge: false, /* Default false */
+        /* Maximo zoom al enfocar un nodo */
+        scale:0.78,
+        /* Aplica si desea hacer una peticion al servidor cada x tiempo*/
+        serverInterval : {
+          /* Tiempo de actualizacion en segundoo Default 10  */
+          time: 5,
+          url:"../../../ocupacion.php", 
+          method:'POST',
+          data:{
+            function_name:"getTopologyUpdateTime", 
+            /* Este parametro es opcional ya que la libreria envia un arreglo con los id's de los nodos  */
+            params: {"id":2134,"type":"device","opcion":1,"ancho":1400,"alto":494,"fecha_ini":"03/02/2023 00:00","fecha_fin":"03/02/2023 16:43"}
+          }
+
+        },
+        /* Inicio Eventos */
+        onclickLink:function(dataLinks){
+          /* Recibe 2 parametro nodo => objeto html, dataNode => objeto que trae los campos del josn para c/da nodo */
+            console.log(dataLinks)
+        },
+        hoverNode:function(node,dataNode,focus){
+            /* Recibe 3 parametros: node => el objeto html, data=> informacion del json para cda nodo, focus => si esta focus activo o inactivo */
+            // showDataNode(node,dataNode,focus);
+            console.log(node,dataNode,focus)
+        },
+        onclickRightNode:function(node,dataNode){
+          /* Recibe 2 parametro nodo => objeto html, dataNode => objeto que trae los campos del josn para c/da nodo */
+          console.error(node,dataNode,'click derecho index');
+        },
+        infoByNode:function(_tp_self,data,config,selectedNode,containerInfo,htmlIdInfo,htmlBasiInfo){
+          /* Recibe data,config,selectedNode,containerInfo,htmlIdInfo,htmlBasiInfo */
+          // console.error("INFO BY INDEX NODE LOCAL",data,config,selectedNode,containerInfo,htmlIdInfo,htmlBasiInfo);
+          
+          $(htmlIdInfo).infoNode({
+            tp: _tp_self,
+            info: data,
+            htmlBasiInfo:htmlBasiInfo,
+            interactionTp:config,
+            selectedNode:selectedNode,
+            containerInfo:containerInfo,
+          })
+        },
+        eventsFooter:function(type,data){
+          console.log(type,data);
+        }
+        /* Fin Eventos */
+    });
+    
+  });
+  
+</script>
+<script type="text/javascript" src="js/tp.js" ></script>
+<script type="text/javascript" src="js/moduleInfoNodeTp.js" ></script>
+</body>
+</html>

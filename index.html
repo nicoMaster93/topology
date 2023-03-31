@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="css/topologyNew.css"> 
+  <link rel="stylesheet" href="css/index.css"> 
+  <link rel="stylesheet" type="text/css" href="../Common/JS/easyui3.5/themes/icon.css?v=20220907">
+  
+</head>
+<body>
+<div class="contendorTp">
+  <div id="containerTopo"></div>
+</div>
+
+<script type="text/javascript" src="js/complement.topology.js" ></script>
+<script type="text/javascript" src="js/topologyNew.js" ></script> 
+
+<script>
+  $(document).ready(function(){
+    
+    $("#containerTopo").topology({
+        showConsole:true,
+        /*(Opcional) Muestra o no los mensajes por consola default false */
+        url:"autocore.json", 
+        // url:"arbol.json", 
+        /*  (Opcional-Obligatorio) Ruta del json por ajax */
+        method:'POST',
+        /* (Opcional-Obligatorio) Metodo de consulta ajax */
+        post:{function_name:"hola"}, 
+        /*  (Opcional) Parametros adicionales a la ruta por ajax */
+        /* data:[
+            {
+                "id":1,
+                "title":"Topology",
+                "data": {},
+                "status":"0",
+                "children": [ Same scheme ]
+            }
+        ],
+        // (Opcional-Obligatorio) aplica si envia el json por este campo y no por ajax */
+        showDetail:false, 
+        /* (Opcional) Indica si quiero mostrar la seccion de detalle */
+        imgLoader: false,
+        /* (Opcional) Se agrega la ruta de la imagen del loader */
+        titleNode:'ip',
+        /*(Opcional) Aplica si showDetail es true y en el json hay un parametro especifico para mostrar */
+        titleNodeSummary:'Equipos',
+        /*(Opcional) Aplica para remplazar la pálabra "Nodo" en el resumen de la topolgía */
+        uniqueIdNode: 'id',
+        /* (Opcional) 
+        Campo que viene del json que pinta la topologia el cual es unico [no se repite en ningun nodo ].
+        Ayuda a interactuar con los nodos si habilita el evento makeChangesTopology 
+        */
+        maxLevelDetail:2,
+        /* Aplica si showDetail is true, muestra la cantidad de subniveles en el detalle */
+        listeningTime:300000, // 5 minutos
+        /* (Opcional)
+          Informa cda cuanto se va refrescar la topologia en milisegundos.  
+          Si se adiciona este parametro entonces se debe:  agregar el campo paramsListener
+        */
+       showFilters:true,
+       /* Muestra los filtros de la topología */
+        listeningParameters:{
+          url:"ejemplo.json", 
+          method:'POST',
+          post:{function_name:"hola"}, 
+        },
+        /* Recibe 3 parametros, url: ruta del json que contiene los cambios de los nodos, method: get/post,  post: (opcional) parametros que se requieran enviar a la url */
+        /* Inicio Eventos */
+        onclickNode:function(node,dataNode){
+          /* Recibe 2 parametro nodo => objeto html, dataNode => objeto que trae los campos del josn para c/da nodo */
+            $(".infoNode").remove();
+        },
+        hoverNode:function(node,dataNode,focus){
+            /* Recibe 3 parametros: node => el objeto html, data=> informacion del json para cda nodo, focus => si esta focus activo o inactivo */
+            // showDataNode(node,dataNode,focus);
+        },
+        onclickRightNode:function(node,dataNode){
+          /* Recibe 2 parametro nodo => objeto html, dataNode => objeto que trae los campos del josn para c/da nodo */
+          console.error(node,dataNode,'click derecho index');
+        },
+        makeChangesTopology:function(){
+          /* 
+          El plugin detecta si hay cambios en el json por c/da posicion y efectua los cambios pertinentes segun el cambio. Este método depende de la opcion
+          listeningParameters 
+          */
+        },
+        moveNode:true
+        /* Fin Eventos */
+    });
+    
+  });
+  
+function showDataNode(node,data,show=true){
+  var infoId = `info_${node.replace("#",'')}`;
+  var containerSection = `#${$(node).parents('section')[0].id}`;
+  var top = ($(node).offset().top + ($(containerSection).offset().top / 2));
+  var positionCss = `style="top:${top}px; left: ${($(node).offset().left)}px"`;
+  var info = `<div class="infoNode" id="${infoId}" ${positionCss}>
+      <label>Información<br><b>${data.title}</b></label>
+      <ul>
+        ${(typeof data.status == 'number') ? `<li><b>Estado</b>: ${topology.statusNode(data.status)['label']}</li>` :'' }
+        ${(typeof data.data == 'object') ? `<li><b>ip</b>: ${data.data.ip}</li>` :'' }
+        ${(typeof data.data == 'object') ? `<li><b>mac</b>: ${data.data.mac}</li>` :'' }
+        ${(typeof data.data == 'object') ? `<li><b>Model</b>: ${data.data.model}</li>` :'' }
+        ${(typeof data.data == 'object') ? `<li><b>Serial</b>: ${data.data.serial}</li>` :'' }
+        ${(typeof data.data == 'object') ? `<li><b>Provider</b>: ${data.data.provider}</li>` :'' }
+        ${(typeof data.data == 'object') ? `<li><b>type</b>: ${data.data.type}</li>` :'' }
+      </ul>
+    </div>`; 
+    if(show){
+      if($(`#`+infoId).length == 0){
+        $('body').append(info);
+      }
+    }else{
+      //debugger
+      if ($(`#${infoId}:hover`).length > 0) {
+          $(`#${infoId}`).hover(false, (out)=>{
+            // $(".infoNode").remove(); 
+            console.log('removehover');
+          });
+      }else{
+        // $(".infoNode").remove(); 
+      }
+    }
+}
+
+</script>
+</body>
+</html>

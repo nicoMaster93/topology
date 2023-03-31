@@ -1,0 +1,4352 @@
+{
+    "5023": {
+      "provider": "ARUBA",
+      "parent": [
+        "5322"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511Z5",
+      "ip": "10.209.105.167",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4966",
+      "agent": "1",
+      "id": "5023",
+      "title": "AP345_GRC-COR-P02_03",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ac:a1"
+    },
+    "5030": {
+      "provider": "ARUBA",
+      "parent": [
+        "5323"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5127W",
+      "ip": "10.208.232.35",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4973",
+      "agent": "1",
+      "id": "5030",
+      "title": "AP345_GRC-TLLMTTO-P01_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:e1:40"
+    },
+    "8451": {
+      "provider": "LIEBERT",
+      "parent": [
+        "8262"
+      ],
+      "layer_name": "Infrastructure",
+      "serial": "2100401314AFFE6",
+      "ip": "10.209.171.2",
+      "status": "0",
+      "model": "GXT5-3000LVRT2UXL",
+      "os": "MCUV190 DSPV190K110",
+      "layer": "7",
+      "dnsname": "ecopetrol8236",
+      "agent": "4",
+      "id": "8451",
+      "title": "UPS-GRC-MULL-OFC-PILCAR_01",
+      "type": "UPS",
+      "mac": "00:09:f5:26:04:3c"
+    },
+    "2174": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Core",
+      "ip": "10.209.251.6",
+      "status": "0",
+      "model": "7510",
+      "children": [
+        "2160",
+        "2161",
+        "2132",
+        "2135",
+        "2140",
+        "2145",
+        "2172"
+      ],
+      "os": "7500-CMW-6710P02",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2175",
+      "id": "2174",
+      "mac": "d0:7e:28:e3:f1:09",
+      "parent": [
+        "2173",
+        "2171"
+      ],
+      "serial": "CN33B5Y01G",
+      "layer": "2",
+      "agent": "1",
+      "type": "SW",
+      "title": "S7510_GRC-CCB-CORP_01"
+    },
+    "4763": {
+      "provider": "ARUBA",
+      "parent": [
+        "5322"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511WB",
+      "ip": "10.209.105.173",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4730",
+      "agent": "1",
+      "id": "4763",
+      "title": "AP345_GRC-COR-P02_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:97:e1"
+    },
+    "2613": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.12",
+      "status": "0",
+      "model": "JC104A",
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2613",
+      "id": "2613",
+      "mac": "cc:3e:5f:3f:ff:eb",
+      "parent": [
+        "2144"
+      ],
+      "serial": "CN36BFS012",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-CONFBLD-MTTO_01"
+    },
+    "10599": {
+      "provider": "ARUBA",
+      "parent": [
+        "4747"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5129S",
+      "ip": "10.208.106.234",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10275",
+      "agent": "1",
+      "id": "10599",
+      "title": "AP345_GRC-ACCESO-CCA-P02_05",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ea:e0"
+    },
+    "5044": {
+      "provider": "ARUBA",
+      "parent": [
+        "5320"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512CX",
+      "ip": "10.208.105.104",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4987",
+      "agent": "1",
+      "id": "5044",
+      "title": "AP345_GRC-SEG-FS-P01_04",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:de:a1"
+    },
+    "2131": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.18",
+      "status": "0",
+      "model": "JC104A",
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2132",
+      "id": "2131",
+      "mac": "cc:3e:5f:49:ef:6f",
+      "parent": [
+        "2140",
+        "2151"
+      ],
+      "serial": "CN37BFS0B7",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-GER_01"
+    },
+    "9867": {
+      "provider": "ARUBA",
+      "parent": [
+        "9865"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHFK5123C",
+      "ip": "10.208.106.36",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol9593",
+      "agent": "1",
+      "id": "9867",
+      "title": "AP345_GRC-ING-PROC_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8c:f2:80"
+    },
+    "5578": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512DD",
+      "ip": "10.208.105.38",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5488",
+      "agent": "1",
+      "id": "5578",
+      "title": "AP345_GRC-ADMIN-P02_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ba:20"
+    },
+    "10355": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK51380",
+      "ip": "10.208.105.51",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10048",
+      "agent": "1",
+      "id": "10355",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P02_10",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b1:49:20"
+    },
+    "2152": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.11",
+      "status": "0",
+      "model": "JC099A",
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2153",
+      "id": "2152",
+      "mac": "cc:3e:5f:71:3e:46",
+      "parent": [
+        "2144"
+      ],
+      "serial": "CN38BFM038",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-PELECTLAB_01"
+    },
+    "7396": {
+      "provider": "CISCO SYSTEMS",
+      "layer_name": "Routing",
+      "serial": "FGL2330214S",
+      "ip": "10.209.254.132",
+      "status": "0",
+      "model": "C1111-8P",
+      "children": [
+        "2135"
+      ],
+      "os": "16.12.5",
+      "layer": "1",
+      "dnsname": "ecopetrol7206",
+      "agent": "1",
+      "id": "7396",
+      "title": "R1111_GRC-AREA-21_01",
+      "type": "ROUTER",
+      "mac": "08:4f:a9:cd:d7:80"
+    },
+    "4476": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5120Q",
+      "ip": "10.208.105.41",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4446",
+      "agent": "1",
+      "id": "4476",
+      "title": "AP345_GRC-ADMIN-P01_11",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:b5:61"
+    },
+    "2173": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Core",
+      "ip": "10.209.251.5",
+      "status": "0",
+      "model": "7510",
+      "children": [
+        "3626",
+        "2174"
+      ],
+      "os": "7500-CMW-6710P02",
+      "sibling": [
+        "2171"
+      ],
+      "dnsname": "ecopetrol2174",
+      "id": "2173",
+      "mac": "d0:7e:28:e3:f1:59",
+      "parent": [
+        "6471"
+      ],
+      "serial": "CN33B5Y01Z",
+      "layer": "2",
+      "agent": "1",
+      "type": "SW",
+      "title": "S7510_GRC-CCB-CORE_02"
+    },
+    "5036": {
+      "provider": "ARUBA",
+      "parent": [
+        "5317"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5129Q",
+      "ip": "10.208.236.43",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4979",
+      "agent": "1",
+      "id": "5036",
+      "title": "AP345_GRC-LOB5-CCB_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:d5:c1"
+    },
+    "5034": {
+      "provider": "ARUBA",
+      "parent": [
+        "5316"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5100F",
+      "ip": "10.208.105.237",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4977",
+      "agent": "1",
+      "id": "5034",
+      "title": "AP345_GRC-LAB-PIQ_04",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:af:cd:41"
+    },
+    "4674": {
+      "provider": "ARUBA",
+      "parent": [
+        "1373"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514MP",
+      "ip": "10.209.104.228",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4644",
+      "agent": "1",
+      "id": "4674",
+      "title": "AP345_GRC-LOB4_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:4f:a0"
+    },
+    "5103": {
+      "provider": "ARUBA",
+      "parent": [
+        "1371"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5120X",
+      "ip": "10.209.104.43",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5046",
+      "agent": "1",
+      "id": "5103",
+      "title": "AP345_GRC-LOB1_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:b6:41"
+    },
+    "3435": {
+      "provider": "Eaton",
+      "parent": [
+        "6033"
+      ],
+      "layer_name": "Infrastructure",
+      "serial": "GG397A0877",
+      "ip": "10.208.25.2",
+      "status": "0",
+      "model": "PW9130 3000VA-R",
+      "os": "Powerware 9130 3000",
+      "layer": "7",
+      "dnsname": "ecopetrol3435",
+      "agent": "4",
+      "id": "3435",
+      "title": "UPS_GRC-SGFS_01",
+      "type": "UPS",
+      "mac": "00:20:85:f0:b5:8b"
+    },
+    "10356": {
+      "provider": "ARUBA",
+      "parent": [
+        "2166"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK5150C",
+      "ip": "10.208.105.58",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10049",
+      "agent": "1",
+      "id": "10356",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P01_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:76:81"
+    },
+    "4464": {
+      "provider": "ARUBA",
+      "parent": [
+        "4761"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK51297",
+      "ip": "10.209.105.108",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4434",
+      "agent": "1",
+      "id": "4464",
+      "title": "AP345_GRC-COR-P01_08",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:e6:20"
+    },
+    "1372": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.102.4",
+      "status": "0",
+      "model": "JC099A",
+      "children": [
+        "5071",
+        "5072"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol1373",
+      "id": "1372",
+      "mac": "cc:3e:5f:a1:5e:b4",
+      "parent": [
+        "2160",
+        "2161",
+        "2161"
+      ],
+      "serial": "CN30BFM0H2",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-LOB3_01"
+    },
+    "4387": {
+      "provider": "ARUBA",
+      "parent": [
+        "4747"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5128P",
+      "ip": "10.208.106.232",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4360",
+      "agent": "1",
+      "id": "4387",
+      "title": "AP345_GRC-ACCESO-CCA-P01_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:d9:e0"
+    },
+    "5347": {
+      "provider": "ARUBA",
+      "parent": [
+        "2153"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514RY",
+      "ip": "10.209.106.45",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5287",
+      "agent": "1",
+      "id": "5347",
+      "title": "AP345_GRC-LOB7_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8a:f1:21"
+    },
+    "2147": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.182.2",
+      "status": "0",
+      "model": "JC099A",
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2148",
+      "id": "2147",
+      "mac": "cc:3e:5f:a1:5b:8a",
+      "parent": [
+        "2132",
+        "2135",
+        "2135"
+      ],
+      "serial": "CN30BFM0GR",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-AREA-1000_01"
+    },
+    "10358": {
+      "provider": "ARUBA",
+      "parent": [
+        "2166"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHJK5102S",
+      "ip": "10.208.105.59",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10051",
+      "agent": "1",
+      "id": "10358",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P01_12",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8d:b3:41"
+    },
+    "10353": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514Z3",
+      "ip": "10.208.105.48",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10046",
+      "agent": "1",
+      "id": "10353",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P02_04",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:45:81"
+    },
+    "4384": {
+      "provider": "ARUBA",
+      "parent": [
+        "4747"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512BF",
+      "ip": "10.208.106.227",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4357",
+      "agent": "1",
+      "id": "4384",
+      "title": "AP345_GRC-ACCESO-CCA-P02_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ea:c0"
+    },
+    "2140": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.0",
+      "status": "0",
+      "model": "JC102A",
+      "children": [
+        "8455",
+        "2131",
+        "2141",
+        "2146",
+        "2149",
+        "2166",
+        "6069",
+        "2163",
+        "2167",
+        "2169"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        "2151"
+      ],
+      "dnsname": "ecopetrol2141",
+      "id": "2140",
+      "mac": "cc:3e:5f:06:ab:ab",
+      "parent": [
+        "2172",
+        "2174"
+      ],
+      "serial": "CN34BFQ08P",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5820_GRC-CCA_01"
+    },
+    "5577": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512F8",
+      "ip": "10.208.105.37",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5487",
+      "agent": "1",
+      "id": "5577",
+      "title": "AP345_GRC-ADMIN-P02_03",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ee:e1"
+    },
+    "2171": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Core",
+      "ip": "10.209.251.4",
+      "status": "0",
+      "model": "7510",
+      "children": [
+        "3626",
+        "2174"
+      ],
+      "os": "7500-CMW-6710P02",
+      "sibling": [
+        "2173"
+      ],
+      "dnsname": "ecopetrol2172",
+      "id": "2171",
+      "mac": "d0:7e:28:e3:f1:68",
+      "parent": [
+        "4500"
+      ],
+      "serial": "CN33B5Y022",
+      "layer": "2",
+      "agent": "1",
+      "type": "SW",
+      "title": "S7510_GRC-CCB-CORE_01"
+    },
+    "10592": {
+      "provider": "ARUBA",
+      "parent": [
+        "5322"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512B1",
+      "ip": "10.209.105.165",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10273",
+      "agent": "1",
+      "id": "10592",
+      "title": "AP345_GRC-COR-P02_11",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:dc:e1"
+    },
+    "2161": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.102.1",
+      "status": "0",
+      "model": "JC102A",
+      "children": [
+        "1372",
+        "1372",
+        "1371",
+        "1373",
+        "1373",
+        "1374",
+        "1374",
+        "2153",
+        "2157",
+        "2157",
+        "2158",
+        "2158",
+        "2159",
+        "2159"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        "2160"
+      ],
+      "dnsname": "ecopetrol2162",
+      "id": "2161",
+      "mac": "44:31:92:e2:d1:18",
+      "parent": [
+        "2172",
+        "2174"
+      ],
+      "serial": "CN44BFQ0BL",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5820_GRC-NV-CCB_02"
+    },
+    "2154": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.10",
+      "status": "0",
+      "model": "JC099A",
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2155",
+      "id": "2154",
+      "mac": "cc:3e:5f:71:41:1f",
+      "parent": [
+        "2144"
+      ],
+      "serial": "CN38BFM043",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-CCONTROL_01"
+    },
+    "2611": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.218",
+      "status": "0",
+      "model": "JC099A",
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2611",
+      "id": "2611",
+      "mac": "cc:3e:5f:71:2d:d2",
+      "parent": [
+        "2144"
+      ],
+      "serial": "CN38BFM024",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-PLTRATMTO_01"
+    },
+    "2144": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.1",
+      "status": "0",
+      "model": "JC102A",
+      "children": [
+        "2130",
+        "2133",
+        "2136",
+        "2137",
+        "2142",
+        "2152",
+        "2154",
+        "2162",
+        "2168",
+        "2170",
+        "2611",
+        "2613"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        "2145"
+      ],
+      "dnsname": "ecopetrol2145",
+      "id": "2144",
+      "mac": "cc:3e:5f:06:b0:3d",
+      "parent": [
+        "2172"
+      ],
+      "serial": "CN34BFQ07Z",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5820_GRC-CONFBLD-MTTO_02"
+    },
+    "2160": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.102.0",
+      "status": "0",
+      "model": "JC102A",
+      "children": [
+        "1372",
+        "1373",
+        "1374",
+        "2157",
+        "2158",
+        "2159",
+        "1375"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        "2161"
+      ],
+      "dnsname": "ecopetrol2161",
+      "id": "2160",
+      "mac": "44:31:92:e2:d4:24",
+      "parent": [
+        "2172",
+        "2174"
+      ],
+      "serial": "CN44BFQ0BZ",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5820_GRC-NV-CCB_01"
+    },
+    "2133": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.18",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "5317"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2134",
+      "id": "2133",
+      "mac": "cc:3e:5f:49:66:26",
+      "parent": [
+        "2144",
+        "2145"
+      ],
+      "serial": "CN37BFS06M",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-CCB_01"
+    },
+    "5104": {
+      "provider": "ARUBA",
+      "parent": [
+        "2142"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511WN",
+      "ip": "10.208.232.164",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5047",
+      "agent": "1",
+      "id": "5104",
+      "title": "AP345_GRC-BODMAT-PPS_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:aa:e1"
+    },
+    "3626": {
+      "provider": "Hewlett-Packard",
+      "parent": [
+        "2171",
+        "2173"
+      ],
+      "layer_name": "Access",
+      "serial": "CN20BFM08J",
+      "ip": "10.209.251.102",
+      "status": "0",
+      "model": "JC099A",
+      "os": "5.20.105 Release 1809P09",
+      "layer": "6",
+      "dnsname": "ecopetrol3626",
+      "agent": "1",
+      "id": "3626",
+      "title": "S5800_GRC-SEG-FS-P01_01",
+      "type": "SW",
+      "mac": "d0:7e:28:47:3a:7a"
+    },
+    "5100": {
+      "provider": "ARUBA",
+      "parent": [
+        "5324"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514PX",
+      "ip": "10.209.183.101",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5043",
+      "agent": "1",
+      "id": "5100",
+      "title": "AP345_GRC-ELE-EXT-CTN_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:53:01"
+    },
+    "4669": {
+      "provider": "ARUBA",
+      "parent": [
+        "1373"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514NW",
+      "ip": "10.209.104.236",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4639",
+      "agent": "1",
+      "id": "4669",
+      "title": "AP345_GRC-LOB4_03",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:67:81"
+    },
+    "5021": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512D8",
+      "ip": "10.208.105.35",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4964",
+      "agent": "1",
+      "id": "5021",
+      "title": "AP345_GRC-ADMIN-P01_08",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ca:21"
+    },
+    "4606": {
+      "provider": "ARUBA",
+      "parent": [
+        "5318"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511Y9",
+      "ip": "10.208.232.108",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4576",
+      "agent": "1",
+      "id": "4606",
+      "title": "AP345_GRC-CADI-INTVRIA-P01_04",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:b0:41"
+    },
+    "2150": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.13",
+      "status": "0",
+      "model": "JC099A",
+      "children": [
+        "2214"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2151",
+      "id": "2150",
+      "mac": "cc:3e:5f:49:2e:3c",
+      "parent": [
+        "2151"
+      ],
+      "serial": "CN37BFM02G",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-VIGILANCIA_01"
+    },
+    "5032": {
+      "provider": "ARUBA",
+      "parent": [
+        "5323"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512CQ",
+      "ip": "10.208.232.37",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4975",
+      "agent": "1",
+      "id": "5032",
+      "title": "AP345_GRC-TLLMTTO-P01_03",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:f0:60"
+    },
+    "2167": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.20",
+      "status": "0",
+      "model": "JC104A",
+      "os": "5.20.105 Release 1810P13",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2168",
+      "id": "2167",
+      "mac": "cc:3e:5f:49:70:cf",
+      "parent": [
+        "2140"
+      ],
+      "serial": "CN37BFS07G",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-TELEFONIA_01"
+    },
+    "2170": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.3",
+      "status": "0",
+      "model": "5800-48G-PoE+",
+      "children": [
+        "5318"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2171",
+      "id": "2170",
+      "mac": "c4:ca:d9:ab:95:dc",
+      "parent": [
+        "2144"
+      ],
+      "serial": "210235A378H119000005",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-CADI-INTVRIA_01"
+    },
+    "2136": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.13",
+      "status": "0",
+      "model": "JC099A",
+      "os": "5.20.105 Release 1809P10",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2137",
+      "id": "2136",
+      "mac": "78:48:59:37:e3:c9",
+      "parent": [
+        "2144",
+        "2145"
+      ],
+      "serial": "CN46BFM02Z",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-PLAZUF_01"
+    },
+    "2130": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.90",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "5323"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2131",
+      "id": "2130",
+      "mac": "cc:3e:5f:49:50:d1",
+      "parent": [
+        "2144"
+      ],
+      "serial": "CN37BFS063",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-TALLER_01"
+    },
+    "5070": {
+      "provider": "ARUBA",
+      "parent": [
+        "1375"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514RK",
+      "ip": "10.209.104.101",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5013",
+      "agent": "1",
+      "id": "5070",
+      "title": "AP345_GRC-LOB2_03",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:03:00"
+    },
+    "5024": {
+      "provider": "ARUBA",
+      "parent": [
+        "5322"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511WG",
+      "ip": "10.209.105.170",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4967",
+      "agent": "1",
+      "id": "5024",
+      "title": "AP345_GRC-COR-P02_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:9d:01"
+    },
+    "6033": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.8",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "3435",
+        "5320"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5930",
+      "id": "6033",
+      "mac": "c4:ca:d9:52:c3:9c",
+      "parent": [
+        "2151"
+      ],
+      "serial": "CN31BFS046",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-SEG-FS-P01_02"
+    },
+    "2158": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.102.8",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "5322"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2159",
+      "id": "2158",
+      "mac": "44:31:92:2e:aa:1c",
+      "parent": [
+        "2160",
+        "2161",
+        "2161"
+      ],
+      "serial": "CN3BBFS008",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-NV-CCB-P02_01"
+    },
+    "9865": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.208.102.21",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "9866",
+        "9867",
+        "9868"
+      ],
+      "os": "WC.16.10.0016",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol9591",
+      "id": "9865",
+      "mac": "ec:02:73:36:a9:24",
+      "parent": [
+        "2145"
+      ],
+      "serial": "CN14HKW14W",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-ING-PROC_01"
+    },
+    "2145": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.0",
+      "status": "0",
+      "model": "JC102A",
+      "children": [
+        "2133",
+        "2136",
+        "2143",
+        "2155",
+        "9865"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        "2144"
+      ],
+      "dnsname": "ecopetrol2146",
+      "id": "2145",
+      "mac": "cc:3e:5f:06:ac:f0",
+      "parent": [
+        "2174"
+      ],
+      "serial": "CN34BFQ08V",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5820_GRC-CONFBLD-MTTO_01"
+    },
+    "8847": {
+      "provider": "Cambium",
+      "parent": [
+        "8848"
+      ],
+      "layer_name": "Radios",
+      "serial": "E6WK0GHWNQ6M",
+      "ip": "10.208.108.29",
+      "status": "0",
+      "model": "ePMP",
+      "os": "4.7",
+      "layer": "8",
+      "dnsname": "ecopetrol8610",
+      "agent": "1",
+      "id": "8847",
+      "title": "PTP_MULL-REF-PILCAR_GRC-KZ-COM_01",
+      "type": "RADIOS",
+      "mac": "0"
+    },
+    "5107": {
+      "provider": "ARUBA",
+      "parent": [
+        "5324"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK5150R",
+      "ip": "10.209.183.108",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5050",
+      "agent": "1",
+      "id": "5107",
+      "title": "AP345_GRC-MATERIAS-PRIMA-PDTO_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:63:21"
+    },
+    "4470": {
+      "provider": "ARUBA",
+      "parent": [
+        "4761"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5129Y",
+      "ip": "10.209.105.105",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4440",
+      "agent": "1",
+      "id": "4470",
+      "title": "AP345_GRC-COR-P01_07",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:b8:a1"
+    },
+    "5581": {
+      "provider": "ARUBA",
+      "parent": [
+        "2214"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK515PZ",
+      "ip": "10.208.104.147",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5491",
+      "agent": "1",
+      "id": "5581",
+      "title": "AP345_GRC-PLA-TRATMTO-SPDOR_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8a:bd:a1"
+    },
+    "4466": {
+      "provider": "ARUBA",
+      "parent": [
+        "4761"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511WW",
+      "ip": "10.209.105.99",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4436",
+      "agent": "1",
+      "id": "4466",
+      "title": "AP345_GRC-COR-P01_03",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:a9:01"
+    },
+    "5018": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514VJ",
+      "ip": "10.208.105.39",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4961",
+      "agent": "1",
+      "id": "5018",
+      "title": "AP345_GRC-ADMIN-P01_05",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:5b:01"
+    },
+    "4609": {
+      "provider": "ARUBA",
+      "parent": [
+        "5318"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514RC",
+      "ip": "10.208.232.101",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4579",
+      "agent": "1",
+      "id": "4609",
+      "title": "AP345_GRC-CADI-INTVRIA-P01_05",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8a:fd:21"
+    },
+    "5041": {
+      "provider": "ARUBA",
+      "parent": [
+        "5320"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511WJ",
+      "ip": "10.208.105.105",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4984",
+      "agent": "1",
+      "id": "5041",
+      "title": "AP345_GRC-SEG-FS-P01_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:a5:a1"
+    },
+    "5105": {
+      "provider": "ARUBA",
+      "parent": [
+        "2142"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512FP",
+      "ip": "10.208.232.163",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5048",
+      "agent": "1",
+      "id": "5105",
+      "title": "AP345_GRC-BODMAT-PPS_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:d5:61"
+    },
+    "2142": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.4",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "4752",
+        "5104",
+        "5105"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2143",
+      "id": "2142",
+      "mac": "cc:3e:5f:49:6e:c2",
+      "parent": [
+        "2144"
+      ],
+      "serial": "CN37BFS07C",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-BODMAT-DESPCHO_01"
+    },
+    "6720": {
+      "provider": "ARUBA",
+      "parent": [
+        "24"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5134V",
+      "ip": "10.209.184.86",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol6569",
+      "agent": "1",
+      "id": "6720",
+      "title": "AP345_GRC-KZ-OPRD-MULL-REF_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b1:11:81"
+    },
+    "4761": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.209.105.110",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "4463",
+        "4464",
+        "4465",
+        "4466",
+        "4468",
+        "4469",
+        "4470",
+        "5098"
+      ],
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol4728",
+      "id": "4761",
+      "mac": "38:21:c7:d2:48:e0",
+      "parent": [
+        "2157"
+      ],
+      "serial": "TW94HKW0XJ",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-COR-P1_10"
+    },
+    "24": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.153.1",
+      "status": "0",
+      "model": "JC099A",
+      "children": [
+        "8",
+        "6720",
+        "9715",
+        "8848"
+      ],
+      "os": "5.20.105 Release 1810P13",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol0025",
+      "id": "24",
+      "mac": "d0:7e:28:45:e1:32",
+      "parent": [
+        "2151"
+      ],
+      "serial": "CN20BFM001",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC_CAS_OPE_MULL_REFI_01"
+    },
+    "5029": {
+      "provider": "ARUBA",
+      "parent": [
+        "5322"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512F7",
+      "ip": "10.209.105.169",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4972",
+      "agent": "1",
+      "id": "5029",
+      "title": "AP345_GRC-COR-P02_09",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:f6:c1"
+    },
+    "10350": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHFK5123F",
+      "ip": "10.208.105.53",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10043",
+      "agent": "1",
+      "id": "10350",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P02_07",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8c:d5:21"
+    },
+    "2124": {
+      "provider": "ARUBA",
+      "parent": [
+        "5317"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512G0",
+      "ip": "10.208.236.45",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol2125",
+      "agent": "1",
+      "id": "2124",
+      "title": "AP345_GRC-LOB5-CCB_05",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:f1:c1"
+    },
+    "5097": {
+      "provider": "ARUBA",
+      "parent": [
+        "5324"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514Q1",
+      "ip": "10.209.183.100",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5040",
+      "agent": "1",
+      "id": "5097",
+      "title": "AP345_GRC-ELE-EXT-CTN_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:2b:c1"
+    },
+    "10352": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514ZZ",
+      "ip": "10.208.105.49",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10045",
+      "agent": "1",
+      "id": "10352",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P02_06",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:75:61"
+    },
+    "5322": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.209.105.174",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "10592",
+        "10598",
+        "4695",
+        "4763",
+        "5023",
+        "5024",
+        "5025",
+        "5026",
+        "5027",
+        "5028",
+        "5029"
+      ],
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5262",
+      "id": "5322",
+      "mac": "38:21:c7:23:be:c0",
+      "parent": [
+        "2158"
+      ],
+      "serial": "CN8BHKW1W0",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-COR-P2_02"
+    },
+    "4605": {
+      "provider": "ARUBA",
+      "parent": [
+        "6069"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK51216",
+      "ip": "10.208.108.115",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4575",
+      "agent": "1",
+      "id": "4605",
+      "title": "AP345_GRC-CSNO_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:b7:01"
+    },
+    "1374": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.102.6",
+      "status": "0",
+      "model": "JC099A",
+      "children": [
+        "5582",
+        "5583"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol1375",
+      "id": "1374",
+      "mac": "cc:3e:5f:a1:53:a1",
+      "parent": [
+        "2160",
+        "2161",
+        "2161"
+      ],
+      "serial": "CN30BFM0FY",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-LOB6_01"
+    },
+    "10048": {
+      "provider": "ARUBA",
+      "parent": [
+        "2155"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514VZ",
+      "ip": "10.208.233.169",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol9767",
+      "agent": "1",
+      "id": "10048",
+      "title": "AP345_GRC-PLCRUD-IPCC_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:61:80"
+    },
+    "2163": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.6",
+      "status": "0",
+      "model": "5800-48G-PoE+",
+      "os": "5.20.105 Release 1810P13",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2164",
+      "id": "2163",
+      "mac": "38:22:d6:e9:c3:6e",
+      "parent": [
+        "2140",
+        "2151"
+      ],
+      "serial": "210235A378H117000139",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-ADMIN-P01_01"
+    },
+    "4468": {
+      "provider": "ARUBA",
+      "parent": [
+        "4761"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512G9",
+      "ip": "10.209.105.109",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4438",
+      "agent": "1",
+      "id": "4468",
+      "title": "AP345_GRC-COR-P01_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:eb:a1"
+    },
+    "4607": {
+      "provider": "ARUBA",
+      "parent": [
+        "5318"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512D0",
+      "ip": "10.208.232.104",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4577",
+      "agent": "1",
+      "id": "4607",
+      "title": "AP345_GRC-CADI-INTVRIA-P01_03",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:d4:a1"
+    },
+    "2214": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.15",
+      "status": "0",
+      "model": "5800-24G-PoE+",
+      "children": [
+        "5581"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2215",
+      "id": "2214",
+      "mac": "c4:ca:d9:af:57:8a",
+      "parent": [
+        "2150"
+      ],
+      "serial": "210235A36SH119000167",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_REFICAR_SEPARADOR_01"
+    },
+    "5320": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.208.105.110",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "5041",
+        "5042",
+        "5043",
+        "5044"
+      ],
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5260",
+      "id": "5320",
+      "mac": "38:21:c7:d2:77:00",
+      "parent": [
+        "6033"
+      ],
+      "serial": "TW94HKW0Q4",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-EDF-SEG-FS_04"
+    },
+    "5042": {
+      "provider": "ARUBA",
+      "parent": [
+        "5320"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511WR",
+      "ip": "10.208.105.102",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4985",
+      "agent": "1",
+      "id": "5042",
+      "title": "AP345_GRC-SEG-FS-P01_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:a4:01"
+    },
+    "5108": {
+      "provider": "ARUBA",
+      "parent": [
+        "5324"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514YP",
+      "ip": "10.209.183.107",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5051",
+      "agent": "1",
+      "id": "5108",
+      "title": "AP345_GRC-MATERIAS-PRIMAS_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:17:81"
+    },
+    "2114": {
+      "provider": "ARUBA",
+      "parent": [
+        "5324"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK5152N",
+      "ip": "10.209.183.99",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol2115",
+      "agent": "1",
+      "id": "2114",
+      "title": "AP345_GRC-MATERIAS-PRIMA-PDTO_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:80:c1"
+    },
+    "5325": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.208.106.110",
+      "status": "0",
+      "model": "JL255A",
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5265",
+      "id": "5325",
+      "mac": "38:21:c7:20:d5:e0",
+      "parent": [
+        "2165"
+      ],
+      "serial": "CN8AHKW1XX",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-ENFER-UND-MEDICA_02"
+    },
+    "4743": {
+      "provider": "ARUBA",
+      "parent": [
+        "5316"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512CH",
+      "ip": "10.208.105.233",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4711",
+      "agent": "1",
+      "id": "4743",
+      "title": "AP345_GRC-LAB-PIQ_03",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ea:01"
+    },
+    "2166": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.7",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "10349",
+        "10354",
+        "10356",
+        "10357",
+        "10358",
+        "5319"
+      ],
+      "os": "5.20.105 Release 1810P13",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2167",
+      "id": "2166",
+      "mac": "00:23:89:ce:40:0f",
+      "parent": [
+        "2140",
+        "2151"
+      ],
+      "serial": "CN23BFS026",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-ADMIN-P02_01"
+    },
+    "6471": {
+      "provider": "CISCO SYSTEMS",
+      "layer_name": "Routing",
+      "ip": "10.50.6.20",
+      "status": "0",
+      "model": "ISR4431/K9",
+      "children": [
+        "2173"
+      ],
+      "os": "17.3.4a",
+      "sibling": [
+        "4500"
+      ],
+      "dnsname": "ecopetrol6325",
+      "id": "6471",
+      "mac": "5c:71:0d:93:61:40",
+      "serial": "FGL2344LNP9",
+      "layer": "1",
+      "agent": "2",
+      "type": "ROUTER",
+      "title": "R4431_REF-CAR_RED-B"
+    },
+    "8443": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.208.102.59",
+      "status": "0",
+      "model": "JL255A",
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol8228",
+      "id": "8443",
+      "mac": "38:21:c7:23:2f:04",
+      "parent": [
+        "2151"
+      ],
+      "serial": "CN8BHKW1W6",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-MULL-EDF-SEG_01"
+    },
+    "8265": {
+      "provider": "ARUBA",
+      "parent": [
+        "8262"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHFK511ZS",
+      "ip": "10.209.184.132",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol8051",
+      "agent": "1",
+      "id": "8265",
+      "title": "AP345_GRC-MULL-PILCAR-CNT3_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8c:ee:41"
+    },
+    "8": {
+      "provider": "Cambium",
+      "parent": [
+        "24"
+      ],
+      "layer_name": "Radios",
+      "serial": "E6WK0H9CHQT1",
+      "ip": "10.209.153.200",
+      "status": "0",
+      "model": "ePMP",
+      "os": "4.7",
+      "layer": "8",
+      "dnsname": "ecopetrol0009",
+      "agent": "1",
+      "id": "8",
+      "title": "PTP_KZ-OPR_EDF-LOAD-MASTER",
+      "type": "RADIOS",
+      "mac": "0"
+    },
+    "5317": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.208.236.46",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "2124",
+        "5036",
+        "5037",
+        "5038",
+        "5039",
+        "5040"
+      ],
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5257",
+      "id": "5317",
+      "mac": "38:21:c7:d2:39:40",
+      "parent": [
+        "2133"
+      ],
+      "serial": "TW94HKW0HL",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-LOB5-CRAKIN_02"
+    },
+    "4759": {
+      "provider": "ARUBA",
+      "parent": [
+        "1375"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK515Q4",
+      "ip": "10.209.104.100",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4726",
+      "agent": "1",
+      "id": "4759",
+      "title": "AP345_GRC-LOB2_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8a:bb:81"
+    },
+    "4752": {
+      "provider": "ARUBA",
+      "parent": [
+        "2142"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511XL",
+      "ip": "10.208.232.162",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4719",
+      "agent": "1",
+      "id": "4752",
+      "title": "AP345_GRC-BODMAT-DESPCHO_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:a3:a1"
+    },
+    "5026": {
+      "provider": "ARUBA",
+      "parent": [
+        "5322"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512F6",
+      "ip": "10.209.105.172",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4969",
+      "agent": "1",
+      "id": "5026",
+      "title": "AP345_GRC-COR-P02_06",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:d8:41"
+    },
+    "5576": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512CW",
+      "ip": "10.208.105.45",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5486",
+      "agent": "1",
+      "id": "5576",
+      "title": "AP345_GRC-ADMIN-P01_07",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:f4:e1"
+    },
+    "5039": {
+      "provider": "ARUBA",
+      "parent": [
+        "5317"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512DP",
+      "ip": "10.208.236.38",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4982",
+      "agent": "1",
+      "id": "5039",
+      "title": "AP345_GRC-LOB5-CCB_04",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:e0:81"
+    },
+    "10634": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.209.0.253",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "10636",
+        "10637"
+      ],
+      "os": "WC.16.11.0005",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol10310",
+      "id": "10634",
+      "mac": "38:21:c7:20:8c:44",
+      "parent": [
+        "1371"
+      ],
+      "serial": "CN8AHKW0MC",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-LOB1-AUX_01"
+    },
+    "5071": {
+      "provider": "ARUBA",
+      "parent": [
+        "1372"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK515PR",
+      "ip": "10.209.104.163",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5014",
+      "agent": "1",
+      "id": "5071",
+      "title": "AP345_GRC-LOB3_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:a9:e1"
+    },
+    "2143": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.6",
+      "status": "0",
+      "model": "JC099A",
+      "os": "5.20.105 Release 1809P09",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2144",
+      "id": "2143",
+      "mac": "d0:7e:28:6b:45:72",
+      "parent": [
+        "2145"
+      ],
+      "serial": "CN2ABFM0J3",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-PTMTTO_01"
+    },
+    "10637": {
+      "provider": "ARUBA",
+      "parent": [
+        "10634"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHJK51016",
+      "ip": "10.209.104.45",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10313",
+      "agent": "1",
+      "id": "10637",
+      "title": "AP345_GRC-LOB1-AUX_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8d:93:21"
+    },
+    "5037": {
+      "provider": "ARUBA",
+      "parent": [
+        "5317"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512BJ",
+      "ip": "10.208.236.42",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4980",
+      "agent": "1",
+      "id": "5037",
+      "title": "AP345_GRC-LOB5-CCB_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:dc:01"
+    },
+    "5027": {
+      "provider": "ARUBA",
+      "parent": [
+        "5322"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512GB",
+      "ip": "10.209.105.166",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4970",
+      "agent": "1",
+      "id": "5027",
+      "title": "AP345_GRC-COR-P02_05",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:bc:a1"
+    },
+    "5318": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.208.232.110",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "4606",
+        "4607",
+        "4609",
+        "4610",
+        "6506"
+      ],
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5258",
+      "id": "5318",
+      "mac": "38:21:c7:20:d5:c0",
+      "parent": [
+        "2170"
+      ],
+      "serial": "CN8AHKW2B7",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-EDF-CADI-INTVRIA-P01_02"
+    },
+    "5326": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.208.104.46",
+      "status": "0",
+      "model": "JL255A",
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5266",
+      "id": "5326",
+      "mac": "38:21:c7:d2:18:80",
+      "parent": [
+        "2169"
+      ],
+      "serial": "TW94HKW06N",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-EDF-PIVOTE_01"
+    },
+    "8455": {
+      "provider": "Cambium",
+      "parent": [
+        "2140"
+      ],
+      "layer_name": "Radios",
+      "serial": "E8VE00561Q0J",
+      "ip": "10.208.103.98",
+      "status": "0",
+      "model": "ePMP",
+      "os": "4.7",
+      "layer": "8",
+      "dnsname": "ecopetrol8239",
+      "agent": "1",
+      "id": "8455",
+      "title": "PTP_GRC-KZ-COM-CCA_MULL-REF-OPRD_01",
+      "type": "RADIOS",
+      "mac": "58:c1:7a:45:ea:e4"
+    },
+    "10047": {
+      "provider": "ARUBA",
+      "parent": [
+        "2155"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514Z0",
+      "ip": "10.208.233.170",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol9766",
+      "agent": "1",
+      "id": "10047",
+      "title": "AP345_GRC-PLCRUD-IPCC_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:78:c0"
+    },
+    "1375": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.102.3",
+      "status": "0",
+      "model": "5800-24G-PoE+",
+      "children": [
+        "4759",
+        "5070",
+        "5585"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol1376",
+      "id": "1375",
+      "mac": "c4:ca:d9:58:05:20",
+      "parent": [
+        "2160"
+      ],
+      "serial": "210235A36SH118000160",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-LOB2_01"
+    },
+    "10354": {
+      "provider": "ARUBA",
+      "parent": [
+        "2166"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514XP",
+      "ip": "10.208.105.60",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10047",
+      "agent": "1",
+      "id": "10354",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P01_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8a:ec:40"
+    },
+    "4742": {
+      "provider": "ARUBA",
+      "parent": [
+        "5316"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512JG",
+      "ip": "10.208.105.232",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4710",
+      "agent": "1",
+      "id": "4742",
+      "title": "AP345_GRC-LAB-PIQ_06",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ef:a1"
+    },
+    "5072": {
+      "provider": "ARUBA",
+      "parent": [
+        "1372"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514Q9",
+      "ip": "10.209.104.164",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5015",
+      "agent": "1",
+      "id": "5072",
+      "title": "AP345_GRC-LOB3_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:5a:80"
+    },
+    "2132": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.182.1",
+      "status": "0",
+      "model": "JC102A",
+      "children": [
+        "2147"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        "2135",
+        "2164"
+      ],
+      "dnsname": "ecopetrol2133",
+      "id": "2132",
+      "mac": "d0:7e:28:db:02:b2",
+      "parent": [
+        "2174"
+      ],
+      "serial": "CN33BFQ04T",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5820_GRC-ELE-EXT_02"
+    },
+    "9866": {
+      "provider": "ARUBA",
+      "parent": [
+        "9865"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHFK5123L",
+      "ip": "10.208.106.35",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol9592",
+      "agent": "1",
+      "id": "9866",
+      "title": "AP345_GRC-ING-PROC_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8c:f1:e0"
+    },
+    "9715": {
+      "provider": "Energex",
+      "parent": [
+        "24"
+      ],
+      "layer_name": "Infrastructure",
+      "serial": "83312103100094",
+      "ip": "10.209.153.50",
+      "status": "0",
+      "model": "OLLV3K0",
+      "os": "VERFW:01574.05",
+      "layer": "7",
+      "dnsname": "ecopetrol9448",
+      "agent": "4",
+      "id": "9715",
+      "title": "UPS_MULL-REF-OPRD_01",
+      "type": "UPS",
+      "mac": "60:19:29:11:1d:fe"
+    },
+    "5035": {
+      "provider": "ARUBA",
+      "parent": [
+        "5316"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512C7",
+      "ip": "10.208.105.227",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4978",
+      "agent": "1",
+      "id": "5035",
+      "title": "AP345_GRC-LAB-PIQ_05",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ba:00"
+    },
+    "2164": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.182.3",
+      "status": "0",
+      "model": "JC104B",
+      "children": [
+        "5324"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        "2135",
+        "2132"
+      ],
+      "dnsname": "ecopetrol2165",
+      "id": "2164",
+      "mac": "5c:8a:38:35:65:e7",
+      "parent": [
+        "9279"
+      ],
+      "serial": "CN55H1R00Q",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-ELE-EXT_01"
+    },
+    "5582": {
+      "provider": "ARUBA",
+      "parent": [
+        "1374"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK515PL",
+      "ip": "10.209.105.45",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5492",
+      "agent": "1",
+      "id": "5582",
+      "title": "AP345_GRC-PLA-TRATMTO-LOB6_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:ad:a1"
+    },
+    "4740": {
+      "provider": "ARUBA",
+      "parent": [
+        "5316"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512BW",
+      "ip": "10.208.105.229",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4708",
+      "agent": "1",
+      "id": "4740",
+      "title": "AP345_GRC-LAB-PIQ_07",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:c5:e1"
+    },
+    "4474": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHJK5102M",
+      "ip": "10.208.105.43",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4444",
+      "agent": "1",
+      "id": "4474",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P02_08",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8d:ad:60"
+    },
+    "5031": {
+      "provider": "ARUBA",
+      "parent": [
+        "5323"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512D1",
+      "ip": "10.208.232.41",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4974",
+      "agent": "1",
+      "id": "5031",
+      "title": "AP345_GRC-TLLMTTO-P01_04",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:f3:00"
+    },
+    "9279": {
+      "provider": "Fortinet",
+      "layer_name": "Security",
+      "serial": "FGT60FTK21035441",
+      "ip": "10.209.133.5",
+      "status": "0",
+      "model": "FGT_60F",
+      "children": [
+        "2164"
+      ],
+      "os": "v7.0.9,build0444,221121 (GA.M)",
+      "layer": "4",
+      "dnsname": "ecopetrol9032",
+      "agent": "4",
+      "id": "9279",
+      "title": "FW_VIG_CTG_01",
+      "type": "FIREWALL",
+      "mac": "d4:76:a0:a7:77:98"
+    },
+    "4475": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK5155R",
+      "ip": "10.208.105.36",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4445",
+      "agent": "1",
+      "id": "4475",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P02_11",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:8b:c1"
+    },
+    "2172": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Core",
+      "ip": "10.209.251.7",
+      "status": "0",
+      "model": "7510",
+      "children": [
+        "2140",
+        "2151",
+        "2144",
+        "2160",
+        "2161"
+      ],
+      "os": "7500-CMW-6710P02",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2173",
+      "id": "2172",
+      "mac": "d0:7e:28:e3:f1:13",
+      "parent": [
+        "2174"
+      ],
+      "serial": "CN33B5Y01J",
+      "layer": "2",
+      "agent": "1",
+      "type": "SW",
+      "title": "S7510_GRC-CCB-CORP_02"
+    },
+    "10357": {
+      "provider": "ARUBA",
+      "parent": [
+        "2166"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK515QC",
+      "ip": "10.208.105.54",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10050",
+      "agent": "1",
+      "id": "10357",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P01_10",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:a9:01"
+    },
+    "2169": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.3",
+      "status": "0",
+      "model": "5800-48G-PoE+",
+      "children": [
+        "5326"
+      ],
+      "os": "5.20.105 Release 1810P13",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2170",
+      "id": "2169",
+      "mac": "38:22:d6:b3:5b:47",
+      "parent": [
+        "2140"
+      ],
+      "serial": "210235A378H115000098",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-PIVOTE_01"
+    },
+    "4386": {
+      "provider": "ARUBA",
+      "parent": [
+        "4747"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5128Z",
+      "ip": "10.208.106.235",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4359",
+      "agent": "1",
+      "id": "4386",
+      "title": "AP345_GRC-ACCESO-CCA-P01_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:e5:20"
+    },
+    "4675": {
+      "provider": "ARUBA",
+      "parent": [
+        "1373"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514N9",
+      "ip": "10.209.104.227",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4645",
+      "agent": "1",
+      "id": "4675",
+      "title": "AP345_GRC-LOB4_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:6b:61"
+    },
+    "8264": {
+      "provider": "ARUBA",
+      "parent": [
+        "8262"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHFK51231",
+      "ip": "10.209.184.141",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol8050",
+      "agent": "1",
+      "id": "8264",
+      "title": "AP345_GRC-MULL-PILCAR-CNT2_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8c:fb:81"
+    },
+    "2149": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.14",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "4747"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2150",
+      "id": "2149",
+      "mac": "cc:3e:5f:40:0c:c6",
+      "parent": [
+        "2140",
+        "2151"
+      ],
+      "serial": "CN36BFS022",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-ACCESO-CCA_01"
+    },
+    "10794": {
+      "provider": "ARUBA",
+      "parent": [
+        "4747"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHJK5107K",
+      "ip": "10.208.106.230",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10466",
+      "agent": "1",
+      "id": "10794",
+      "title": "AP345_GRC-ACCESO-CCA-P01_04",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8d:b9:60"
+    },
+    "1371": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.102.2",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "5103",
+        "10634"
+      ],
+      "os": "5.20.105 Release 1809P09",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol1372",
+      "id": "1371",
+      "mac": "cc:3e:5f:49:5f:ff",
+      "parent": [
+        "2161"
+      ],
+      "serial": "CN37BFS052",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-LOB1_01"
+    },
+    "2137": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.16",
+      "status": "0",
+      "model": "JC104A",
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2138",
+      "id": "2137",
+      "mac": "cc:3e:5f:49:f2:b7",
+      "parent": [
+        "2144"
+      ],
+      "serial": "CN37BFS0BH",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-CONFBLD-MTTO_02"
+    },
+    "10796": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512CB",
+      "ip": "10.208.105.55",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10468",
+      "agent": "1",
+      "id": "10796",
+      "title": "AP345_GRC-ADMIN-P02_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ef:c0"
+    },
+    "2162": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.5",
+      "status": "0",
+      "model": "JC099A",
+      "children": [
+        "4694"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2163",
+      "id": "2162",
+      "mac": "cc:3e:5f:71:36:5d",
+      "parent": [
+        "2144"
+      ],
+      "serial": "CN38BFM02Z",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-BODMAT-RECIB_01"
+    },
+    "4385": {
+      "provider": "ARUBA",
+      "parent": [
+        "4747"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512BL",
+      "ip": "10.208.106.228",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4358",
+      "agent": "1",
+      "id": "4385",
+      "title": "AP345_GRC-ACCESO-CCA-P02_03",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ee:60"
+    },
+    "4463": {
+      "provider": "ARUBA",
+      "parent": [
+        "4761"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511ZS",
+      "ip": "10.209.105.107",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4433",
+      "agent": "1",
+      "id": "4463",
+      "title": "AP345_GRC-COR-P01_05",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ab:a1"
+    },
+    "5022": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512F1",
+      "ip": "10.208.105.40",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4965",
+      "agent": "1",
+      "id": "5022",
+      "title": "AP345_GRC-ADMIN-P01_09",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ee:01"
+    },
+    "5579": {
+      "provider": "ARUBA",
+      "parent": [
+        "8262"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK51511",
+      "ip": "10.209.184.139",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5489",
+      "agent": "1",
+      "id": "5579",
+      "title": "AP345_GRC-MULL-OFC-PILCAR_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:82:81"
+    },
+    "5348": {
+      "provider": "ARUBA",
+      "parent": [
+        "2153"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514RR",
+      "ip": "10.209.106.44",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5288",
+      "agent": "1",
+      "id": "5348",
+      "title": "AP345_GRC-LOB7_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:45:01"
+    },
+    "4694": {
+      "provider": "ARUBA",
+      "parent": [
+        "2162"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511X1",
+      "ip": "10.208.232.228",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4664",
+      "agent": "1",
+      "id": "4694",
+      "title": "AP345_GRC-MAT-RECIBO_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:af:c9:41"
+    },
+    "5033": {
+      "provider": "ARUBA",
+      "parent": [
+        "5323"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512CY",
+      "ip": "10.208.232.38",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4976",
+      "agent": "1",
+      "id": "5033",
+      "title": "AP345_GRC-TLLMTTO-P01_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:f1:61"
+    },
+    "2141": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.10",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "5316"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2142",
+      "id": "2141",
+      "mac": "38:22:d6:32:a6:12",
+      "parent": [
+        "2140",
+        "2151"
+      ],
+      "serial": "CN2BBFS07R",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-LAB-PIQ_01"
+    },
+    "10636": {
+      "provider": "ARUBA",
+      "parent": [
+        "10634"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHJK510HF",
+      "ip": "10.209.104.46",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10312",
+      "agent": "1",
+      "id": "10636",
+      "title": "AP345_GRC-LOB1-PLA-CRUD_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8d:ca:80"
+    },
+    "5101": {
+      "provider": "ARUBA",
+      "parent": [
+        "5324"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514Y8",
+      "ip": "10.209.183.109",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5044",
+      "agent": "1",
+      "id": "5101",
+      "title": "AP345_GRC-MATERIAS-PRIMAS_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:5d:81"
+    },
+    "2168": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.20",
+      "status": "0",
+      "model": "JC104A",
+      "os": "5.20.105 Release 1809P09",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2169",
+      "id": "2168",
+      "mac": "cc:3e:5f:49:74:e9",
+      "parent": [
+        "2144"
+      ],
+      "serial": "CN37BFS07S",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-PATIO2_01"
+    },
+    "8262": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.209.182.154",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "5579",
+        "8263",
+        "8264",
+        "8265",
+        "8451"
+      ],
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol8048",
+      "id": "8262",
+      "mac": "38:21:c7:20:99:04",
+      "parent": [
+        "8848"
+      ],
+      "serial": "CN8AHKW1ZP",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-MULL-OFC-PILCAR_01"
+    },
+    "5098": {
+      "provider": "ARUBA",
+      "parent": [
+        "4761"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511ZW",
+      "ip": "10.209.105.100",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5041",
+      "agent": "1",
+      "id": "5098",
+      "title": "AP345_GRC-COR-P01_04",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:b3:a1"
+    },
+    "5324": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.209.183.110",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "2114",
+        "5097",
+        "5100",
+        "5101",
+        "5107",
+        "5108"
+      ],
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5264",
+      "id": "5324",
+      "mac": "54:80:28:b6:d4:80",
+      "parent": [
+        "2164"
+      ],
+      "serial": "CN8AHKW1XT",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-MAT-PRIMA-P1_02"
+    },
+    "2157": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.102.7",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "4761"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2158",
+      "id": "2157",
+      "mac": "44:31:92:2e:b2:50",
+      "parent": [
+        "2160",
+        "2161",
+        "2161"
+      ],
+      "serial": "CN3BBFS00B",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-NV-CCB-P01_01"
+    },
+    "4388": {
+      "provider": "ARUBA",
+      "parent": [
+        "4747"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512FZ",
+      "ip": "10.208.106.231",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4361",
+      "agent": "1",
+      "id": "4388",
+      "title": "AP345_GRC-ACCESO-CCA-P01_03",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:f7:40"
+    },
+    "2138": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.9",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "5045",
+        "5113",
+        "6330"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2139",
+      "id": "2138",
+      "mac": "cc:3e:5f:49:76:24",
+      "parent": [
+        "2151"
+      ],
+      "serial": "CN37BFS07V",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-CTINCD_01"
+    },
+    "5323": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.208.232.45",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "5030",
+        "5031",
+        "5032",
+        "5033"
+      ],
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5263",
+      "id": "5323",
+      "mac": "38:21:c7:20:ac:40",
+      "parent": [
+        "2130"
+      ],
+      "serial": "CN8AHKW25D",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-TALLER-MANTO-P1_03"
+    },
+    "6069": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.32",
+      "status": "0",
+      "model": "JC104A",
+      "children": [
+        "4605",
+        "4693"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5965",
+      "id": "6069",
+      "mac": "b8:af:67:60:38:75",
+      "parent": [
+        "2140",
+        "2151"
+      ],
+      "serial": "CN22BFS09H",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-CAFETERIA_01"
+    },
+    "5028": {
+      "provider": "ARUBA",
+      "parent": [
+        "5322"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512J2",
+      "ip": "10.209.105.164",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4971",
+      "agent": "1",
+      "id": "5028",
+      "title": "AP345_GRC-COR-P02_08",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ea:80"
+    },
+    "5585": {
+      "provider": "ARUBA",
+      "parent": [
+        "1375"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK515PT",
+      "ip": "10.209.104.108",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5495",
+      "agent": "1",
+      "id": "5585",
+      "title": "AP345_GRC-LOB2_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:a6:81"
+    },
+    "2153": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.102.10",
+      "status": "0",
+      "model": "5800-24G-PoE+",
+      "children": [
+        "5347",
+        "5348"
+      ],
+      "os": "5.20.105 Release 1810P13",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2154",
+      "id": "2153",
+      "mac": "38:22:d6:b6:73:f1",
+      "parent": [
+        "2161"
+      ],
+      "serial": "210235A36SH115000108",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-U113_01"
+    },
+    "4465": {
+      "provider": "ARUBA",
+      "parent": [
+        "4761"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511WH",
+      "ip": "10.209.105.101",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4435",
+      "agent": "1",
+      "id": "4465",
+      "title": "AP345_GRC-COR-P01_06",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:7c:61"
+    },
+    "10351": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNFSK5125Z",
+      "ip": "10.208.105.57",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10044",
+      "agent": "1",
+      "id": "10351",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P02_09",
+      "type": "ACCESS POINT",
+      "mac": "38:17:c3:96:53:a0"
+    },
+    "2146": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.5.1",
+      "status": "0",
+      "model": "JC104A",
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2147",
+      "id": "2146",
+      "mac": "cc:3e:5f:71:34:26",
+      "parent": [
+        "2140",
+        "2151"
+      ],
+      "serial": "CN31BFS039",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-TELECO_01"
+    },
+    "5583": {
+      "provider": "ARUBA",
+      "parent": [
+        "1374"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK515Q3",
+      "ip": "10.209.105.46",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5493",
+      "agent": "1",
+      "id": "5583",
+      "title": "AP345_GRC-PLA-TRATMTO-LOB6_02",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:ad:01"
+    },
+    "4695": {
+      "provider": "ARUBA",
+      "parent": [
+        "5322"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK515PP",
+      "ip": "10.209.105.168",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4665",
+      "agent": "1",
+      "id": "4695",
+      "title": "AP345_GRC-COR-P02_04",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8a:dc:81"
+    },
+    "5019": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512DW",
+      "ip": "10.208.105.44",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4962",
+      "agent": "1",
+      "id": "5019",
+      "title": "AP345_GRC-ADMIN-P01_06",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:f6:a0"
+    },
+    "6330": {
+      "provider": "ARUBA",
+      "parent": [
+        "2138"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK5150Z",
+      "ip": "10.208.105.169",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol6212",
+      "agent": "1",
+      "id": "6330",
+      "title": "AP345_GRC-CTINCD-P02_03",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:7c:a0"
+    },
+    "2151": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.1",
+      "status": "0",
+      "model": "JC102A",
+      "children": [
+        "2131",
+        "24",
+        "2138",
+        "2141",
+        "2146",
+        "2149",
+        "2150",
+        "2165",
+        "2166",
+        "6033",
+        "6069",
+        "8443",
+        "2163"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        "2140"
+      ],
+      "dnsname": "ecopetrol2152",
+      "id": "2151",
+      "mac": "cc:3e:5f:06:ab:29",
+      "parent": [
+        "2172"
+      ],
+      "serial": "CN34BFQ08M",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5820_GRC-CCA_02"
+    },
+    "10598": {
+      "provider": "ARUBA",
+      "parent": [
+        "5322"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5129T",
+      "ip": "10.209.105.163",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10274",
+      "agent": "1",
+      "id": "10598",
+      "title": "AP345_GRC-COR-P02_10",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:e5:e1"
+    },
+    "4610": {
+      "provider": "ARUBA",
+      "parent": [
+        "5318"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5120W",
+      "ip": "10.208.232.102",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4580",
+      "agent": "1",
+      "id": "4610",
+      "title": "AP345_GRC-CADI-INTVRIA-P01_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:b6:61"
+    },
+    "4747": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.208.106.238",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "10599",
+        "10600",
+        "10794",
+        "4384",
+        "4385",
+        "4386",
+        "4387",
+        "4388",
+        "5575"
+      ],
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol4715",
+      "id": "4747",
+      "mac": "38:21:c7:20:ca:00",
+      "parent": [
+        "2149"
+      ],
+      "serial": "CN8AHKW1W5",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-EDF-GER-P1_04"
+    },
+    "5580": {
+      "provider": "ARUBA",
+      "parent": [
+        "8848"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHDK514Z5",
+      "ip": "10.209.184.173",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5490",
+      "agent": "1",
+      "id": "5580",
+      "title": "AP345_GRC-MULL-OFC-PILCAR_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8b:58:c0"
+    },
+    "8848": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.16",
+      "status": "0",
+      "model": "JC099B",
+      "children": [
+        "5580",
+        "8847",
+        "8262"
+      ],
+      "os": "5.20.105 Release 1810P06",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol8611",
+      "id": "8848",
+      "mac": "2c:23:3a:bf:2d:bb",
+      "parent": [
+        "24"
+      ],
+      "serial": "CN5BH1L00M",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC_PIL_MULL_REFI_01"
+    },
+    "5020": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK51215",
+      "ip": "10.208.105.42",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4963",
+      "agent": "1",
+      "id": "5020",
+      "title": "AP345_GRC-ADMIN-P02_05",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:b4:61"
+    },
+    "4469": {
+      "provider": "ARUBA",
+      "parent": [
+        "4761"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK511ZV",
+      "ip": "10.209.105.106",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4439",
+      "agent": "1",
+      "id": "4469",
+      "title": "AP345_GRC-COR-P01_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:9d:21"
+    },
+    "5106": {
+      "provider": "ARUBA",
+      "parent": [
+        "5316"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512C9",
+      "ip": "10.208.105.226",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5049",
+      "agent": "1",
+      "id": "5106",
+      "title": "AP345_GRC-LAB-PIQ_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ed:20"
+    },
+    "5043": {
+      "provider": "ARUBA",
+      "parent": [
+        "5320"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5127R",
+      "ip": "10.208.105.103",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4986",
+      "agent": "1",
+      "id": "5043",
+      "title": "AP345_GRC-SEG-FS-P01_03",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:ec:a0"
+    },
+    "5316": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.208.105.238",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "4740",
+        "4742",
+        "4743",
+        "4745",
+        "5034",
+        "5035",
+        "5106"
+      ],
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5256",
+      "id": "5316",
+      "mac": "38:21:c7:20:c5:40",
+      "parent": [
+        "2141"
+      ],
+      "serial": "CN8AHKW239",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-LAB-PIQ-P1_09"
+    },
+    "6506": {
+      "provider": "ARUBA",
+      "parent": [
+        "5318"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5120Z",
+      "ip": "10.208.232.99",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol6355",
+      "agent": "1",
+      "id": "6506",
+      "title": "AP345_GRC-CADI-INTVRIA-P01_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:b2:81"
+    },
+    "5113": {
+      "provider": "ARUBA",
+      "parent": [
+        "2138"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512G8",
+      "ip": "10.208.105.162",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5056",
+      "agent": "1",
+      "id": "5113",
+      "title": "AP345_GRC-CTINCD-P02_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:f7:60"
+    },
+    "5025": {
+      "provider": "ARUBA",
+      "parent": [
+        "5322"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512FF",
+      "ip": "10.209.105.171",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4968",
+      "agent": "1",
+      "id": "5025",
+      "title": "AP345_GRC-COR-P02_07",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:f1:e1"
+    },
+    "2165": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.102.12",
+      "status": "0",
+      "model": "JC099A",
+      "children": [
+        "5325"
+      ],
+      "os": "5.20.105 Release 1810P13",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2166",
+      "id": "2165",
+      "mac": "cc:3e:5f:71:34:c8",
+      "parent": [
+        "2151"
+      ],
+      "serial": "CN38BFM034",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-CTRO-MED_01"
+    },
+    "9868": {
+      "provider": "ARUBA",
+      "parent": [
+        "9865"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHJK510HD",
+      "ip": "10.208.106.37",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol9594",
+      "agent": "1",
+      "id": "9868",
+      "title": "AP345_GRC-ING-PROC_03",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8d:cd:80"
+    },
+    "1373": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.102.5",
+      "status": "0",
+      "model": "JC099A",
+      "children": [
+        "4669",
+        "4674",
+        "4675"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol1374",
+      "id": "1373",
+      "mac": "cc:3e:5f:a1:3c:d9",
+      "parent": [
+        "2160",
+        "2161",
+        "2161"
+      ],
+      "serial": "CN30BFM0CL",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-LOB4_01"
+    },
+    "8263": {
+      "provider": "ARUBA",
+      "parent": [
+        "8262"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHFK51253",
+      "ip": "10.209.184.142",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol8049",
+      "agent": "1",
+      "id": "8263",
+      "title": "AP345_GRC-MULL-PILCAR-CNT1_01",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8c:ff:e1"
+    },
+    "5575": {
+      "provider": "ARUBA",
+      "parent": [
+        "4747"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512BR",
+      "ip": "10.208.106.229",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol5485",
+      "agent": "1",
+      "id": "5575",
+      "title": "AP345_GRC-ACCESO-CCA-P02_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:eb:60"
+    },
+    "5045": {
+      "provider": "ARUBA",
+      "parent": [
+        "2138"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512JF",
+      "ip": "10.208.105.163",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4988",
+      "agent": "1",
+      "id": "5045",
+      "title": "AP345_GRC-CTINCD-P02_02",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:f6:60"
+    },
+    "10349": {
+      "provider": "ARUBA",
+      "parent": [
+        "2166"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHJK510HM",
+      "ip": "10.208.105.56",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10042",
+      "agent": "1",
+      "id": "10349",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P01_04",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8d:c9:60"
+    },
+    "10359": {
+      "provider": "ARUBA",
+      "parent": [
+        "5319"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNHJK5102X",
+      "ip": "10.208.105.52",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10052",
+      "agent": "1",
+      "id": "10359",
+      "title": "AP345_REFICAR-CTG-EDF-ADM-P02_12",
+      "type": "ACCESS POINT",
+      "mac": "7c:57:3c:8d:9c:01"
+    },
+    "5040": {
+      "provider": "ARUBA",
+      "parent": [
+        "5317"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512B4",
+      "ip": "10.208.236.44",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4983",
+      "agent": "1",
+      "id": "5040",
+      "title": "AP345_GRC-LOB5-CCB_06",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:e7:61"
+    },
+    "2159": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.102.9",
+      "status": "0",
+      "model": "JC099A",
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2160",
+      "id": "2159",
+      "mac": "cc:3e:5f:49:44:62",
+      "parent": [
+        "2160",
+        "2161",
+        "2161"
+      ],
+      "serial": "CN37BFM04Q",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-NV-CCB-P02_02"
+    },
+    "4693": {
+      "provider": "ARUBA",
+      "parent": [
+        "6069"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK5129W",
+      "ip": "10.208.108.116",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4663",
+      "agent": "1",
+      "id": "4693",
+      "title": "AP345_GRC-CSNO_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:dd:41"
+    },
+    "5319": {
+      "provider": "ARUBA",
+      "layer_name": "Access",
+      "ip": "10.208.105.46",
+      "status": "0",
+      "model": "JL255A",
+      "children": [
+        "10350",
+        "10351",
+        "10352",
+        "10353",
+        "10355",
+        "10359",
+        "10796",
+        "4474",
+        "4475",
+        "4476",
+        "5018",
+        "5019",
+        "5020",
+        "5021",
+        "5022",
+        "5576",
+        "5577",
+        "5578"
+      ],
+      "os": "WC.16.10.0019",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol5259",
+      "id": "5319",
+      "mac": "38:21:c7:d2:d4:60",
+      "parent": [
+        "2166"
+      ],
+      "serial": "TW94HKW023",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S2930F_GRC-EDF-ADMON-P2_04"
+    },
+    "4500": {
+      "provider": "CISCO SYSTEMS",
+      "layer_name": "Routing",
+      "ip": "10.50.6.19",
+      "status": "0",
+      "model": "ISR4431/K9",
+      "children": [
+        "2171"
+      ],
+      "os": "17.3.4a",
+      "sibling": [
+        "6471"
+      ],
+      "dnsname": "ecopetrol4470",
+      "id": "4500",
+      "mac": "a4:53:0e:94:7f:d0",
+      "serial": "FGL232931M8",
+      "layer": "1",
+      "agent": "2",
+      "type": "ROUTER",
+      "title": "R4431_REF-CAR_RED-A"
+    },
+    "5038": {
+      "provider": "ARUBA",
+      "parent": [
+        "5317"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512CS",
+      "ip": "10.208.236.40",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4981",
+      "agent": "1",
+      "id": "5038",
+      "title": "AP345_GRC-LOB5-CCB_03",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:cd:41"
+    },
+    "2155": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.208.230.8",
+      "status": "0",
+      "model": "JC099A",
+      "children": [
+        "10047",
+        "10048"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        
+      ],
+      "dnsname": "ecopetrol2156",
+      "id": "2155",
+      "mac": "cc:3e:5f:71:43:56",
+      "parent": [
+        "2145"
+      ],
+      "serial": "CN38BFM03L",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5800_GRC-PLCRUD-IPCC_01"
+    },
+    "2135": {
+      "provider": "Hewlett-Packard",
+      "layer_name": "Access",
+      "ip": "10.209.182.0",
+      "status": "0",
+      "model": "JC102A",
+      "children": [
+        "2147",
+        "2147"
+      ],
+      "os": "5.20.105 Release 1810P16",
+      "sibling": [
+        "2132",
+        "2164"
+      ],
+      "dnsname": "ecopetrol2136",
+      "id": "2135",
+      "mac": "d0:7e:28:da:f5:bf",
+      "parent": [
+        "7396",
+        "2174"
+      ],
+      "serial": "CN33BFQ02K",
+      "layer": "6",
+      "agent": "1",
+      "type": "SW",
+      "title": "S5820_GRC-ELE-EXT_01"
+    },
+    "10600": {
+      "provider": "ARUBA",
+      "parent": [
+        "4747"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512DZ",
+      "ip": "10.208.106.233",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol10276",
+      "agent": "1",
+      "id": "10600",
+      "title": "AP345_GRC-ACCESO-CCA-P02_04",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:e0:e0"
+    },
+    "4745": {
+      "provider": "ARUBA",
+      "parent": [
+        "5316"
+      ],
+      "layer_name": "Wireless",
+      "serial": "CNGYK512CR",
+      "ip": "10.208.105.236",
+      "status": "0",
+      "model": "345",
+      "os": "8.6.0.16-8.6.0.16_83052",
+      "layer": "3",
+      "dnsname": "ecopetrol4713",
+      "agent": "1",
+      "id": "4745",
+      "title": "AP345_GRC-LAB-PIQ_01",
+      "type": "ACCESS POINT",
+      "mac": "48:4a:e9:b0:d0:81"
+    }
+  }
